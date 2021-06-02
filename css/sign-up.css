@@ -1,0 +1,140 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 12px;
+}
+
+.showcase h3{
+    font-size: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.footer{
+    background: rgb(5, 5, 90);
+    padding-left: 5rem;
+    margin-top: 3rem;
+}
+
+.footer h4{
+    color: orangered;
+}
+
+.footer p{
+    color: #fff;
+    text-align: left;
+}
+
+.footer-content h5{
+    color: orangered;
+}
+
+.footer-content p{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-content{
+    background: rgb(5, 5, 90);
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+
+.footer-copy{
+    background:rgb(5, 5, 90);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-copy p, h4{
+    color: #fff;
+}
+
+.phone h6{
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.background{
+    height: 100%;
+    background: rgb(175,148,83);
+    margin-top: 80px;
+    background-size: cover;
+}
+
+.profile h5{
+    color: #000;
+}
+
+.home .border{
+    height: 20%;
+    border-radius: 200%;
+    padding: 10px;
+    background: #fff;
+}
+
+.btn-primary{
+    border: solid rgb(180, 54, 92);
+    height: 10%;
+    border-radius: 10%;
+    background: tomato;
+    padding: 5px;
+}
+
+.home .bord{
+    background: #fff;
+    color: #000;
+    border: #fff;
+}
+
+.navbar .border{
+    border-radius: 200%;
+}
+
+.home .design{
+    
+    background: #fff;
+    color: tomato;
+    text-decoration: none;
+}
+
+.home .design .logg{
+    border: none;
+    color: tomato;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+a{
+    color: rgb(224, 69, 69);
+    text-decoration: none;
+}
+
+.form-control{
+    width:90%;
+}
